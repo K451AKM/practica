@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor Node.js - Prueba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🟢 Servidor Node.js</h1>
+        <p>¡Servidor Node.js + Express funcionando correctamente!</p>
+        
+        <div class="info">
+            <p>Este es un servidor de prueba con Node.js y Express</p>
+            <div class="buttons">
+                <button onclick="probarAPI()">Probar API</button>
+                <button onclick="obtenerInfo()">Info del Servidor</button>
+            </div>
+            <div id="resultado"></div>
+        </div>
+        
+        <div class="stats" id="server-stats">
+            <h3>Estadísticas del Servidor</h3>
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <span class="stat-label">Puerto:</span>
+                    <span class="stat-value">3000</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Framework:</span>
+                    <span class="stat-value">Express.js</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

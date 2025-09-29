@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-server-test",
+  "version": "1.0.0",
+  "description": "Servidor de prueba con Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "test",
+    "express"
+  ],
+  "author": "Test User",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
